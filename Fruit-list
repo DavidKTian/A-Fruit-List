@@ -4,7 +4,7 @@ string1.lower()
 if string1.startswith("a")==True:
   print("Good job")
 elif string1.startswith("a")==False:
-  print("Are you sure you know what the letter 'a' is?")
+  print("Your input didn't start with 'a'. Please try again.")
 
 string2=input("Now, write any food that ends with 'b'.")
 string2.lower()
@@ -29,5 +29,5 @@ print("Now, let's see if %s is in this list"%string2)
 
 if string2 in list1:
   print("Good work")
-elif string2 not in list1: 
+elif string2 not in list1:
   print("Not true")
